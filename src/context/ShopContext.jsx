@@ -10,7 +10,7 @@ const ShopContextProvider = (props)=>{
     const [showSearch,setShowSearch] = useState(false);
     const [cartItems,setCartItems] = useState({});
     const onlyCOD = async ()=>{
-        toast.error('Only Cash On Delivery is avaible now');
+        toast.error('Only Cash On Delivery is available now');
     }
     const addToCart = async (itemId,size)=>{
         if(!size){
